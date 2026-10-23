@@ -1,0 +1,14 @@
+# Ignore dependency folders (very large, can be re-installed)
+node_modules/
+
+# Ignore environment variables / secrets
+.env
+.env.local
+
+# Ignore build output folders
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
